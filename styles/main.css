@@ -6,6 +6,7 @@ body{
 .page{
     width: 100%;
     margin: 0 auto;
+    color: white;
 }
 
 section.module.parallax{
@@ -23,5 +24,21 @@ section.module.parallax{
 }
 
 section.module.parallax-1:nth-child(1) {
-    background-image: url(../assets/bg.jpg);
+    color: black;
+}
+
+section.module.parallax-1:nth-child(2) {
+    background-image: url(../assets/bgd.jpg);
+}
+
+section.module.parallax-1:nth-child(3) {
+    background-image: url(../assets/bgd2.jpg);
+}
+
+section.module.parallax-1:nth-child(4) {
+    background-image: url(../assets/bgd3.jpg);
+}
+
+section.module.parallax-1:nth-child(5) {
+    background-image: url(../assets/bgd4.jpg);
 }
